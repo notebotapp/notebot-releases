@@ -10,14 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/giobachour/notebot-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/giobachour/notebot-releases?label=latest&color=141414&labelColor=141414&style=flat-square"></a>
+  <a href="https://github.com/notebotapp/notebot-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/notebotapp/notebot-releases?label=latest&color=141414&labelColor=141414&style=flat-square"></a>
   <img alt="macOS 12 or newer" src="https://img.shields.io/badge/macOS-12%2B-141414?style=flat-square">
   <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%26%2011-141414?style=flat-square">
   <a href="https://notebotapp.com"><img alt="notebotapp.com" src="https://img.shields.io/badge/notebotapp.com-f6f1eb?style=flat-square&labelColor=f6f1eb&color=141414"></a>
 </p>
 
 <p align="center">
-  <b><a href="https://github.com/giobachour/notebot-releases/releases/latest">Download the latest release →</a></b>
+  <b><a href="https://github.com/notebotapp/notebot-releases/releases/latest">Download the latest release →</a></b>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ Notebot is free while it is in beta.
 | **macOS** | Apple silicon (M1 or later), macOS 12 or newer | `Notebot-x.y.z.dmg` — about 380 MB |
 | **Windows** | Windows 10 or 11, 64-bit | `Notebot-Setup-x.y.z.exe` — about 245 MB |
 
-Both files are on the **[latest release page](https://github.com/giobachour/notebot-releases/releases/latest)**. There is no Intel-Mac build.
+Both files are on the **[latest release page](https://github.com/notebotapp/notebot-releases/releases/latest)**. There is no Intel-Mac build.
 
 ### Installing on macOS
 
@@ -106,7 +106,7 @@ Every release since 1.0.7 ships a `.sig` file next to the installer — an Ed255
 
 ## Something wrong?
 
-[Open an issue](https://github.com/giobachour/notebot-releases/issues) with what you were doing and, if a run failed, the text under **Show details** in the panel. If you are in the beta group, a message works too.
+[Open an issue](https://github.com/notebotapp/notebot-releases/issues) with what you were doing and, if a run failed, the text under **Show details** in the panel. If you are in the beta group, a message works too.
 
 <p align="center">
   <sub>Made by Giorgio Bachour, a student who needed it.</sub>

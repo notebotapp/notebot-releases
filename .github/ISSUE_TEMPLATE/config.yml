@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: How to install Notebot
-    url: https://github.com/giobachour/notebot-releases#readme
+    url: https://github.com/notebotapp/notebot-releases#readme
     about: Steps for macOS and Windows, and what the first run asks for.
   - name: What Notebot does
     url: https://notebotapp.com
