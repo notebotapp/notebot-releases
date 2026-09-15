@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to install Notebot
+    url: https://github.com/giobachour/notebot-releases#readme
+    about: Steps for macOS and Windows, and what the first run asks for.
+  - name: What Notebot does
+    url: https://notebotapp.com
+    about: Screenshots, the answers to the usual questions, and the latest download.
+  - name: What the sign-in records
+    url: https://notebotapp.com/privacy
+    about: The full list, and how to have your account deleted.

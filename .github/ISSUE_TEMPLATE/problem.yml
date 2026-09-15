@@ -1,0 +1,47 @@
+name: Something went wrong
+description: Notebot crashed, refused to run, or did something odd.
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. The more of this you fill in, the faster it gets fixed —
+        but a couple of sentences is plenty if you are in a hurry.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you were doing, and what Notebot did instead.
+      placeholder: I dropped two PDFs and a recording into the panel, pressed Run, and after a minute it said it couldn't finish.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which computer?
+      options:
+        - Mac
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Which version of Notebot?
+      description: The gear menu at the top right of the dashboard shows it, e.g. "Notebot 1.1.1".
+      placeholder: 1.1.1
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: The details, if a run failed
+      description: |
+        When a run fails, the panel shows **Show details** under the Run button. Paste that text here.
+        It is the app's own log — it holds file names, never your notes or your key.
+      render: text
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots help. Drag them straight into this box.
