@@ -37,7 +37,7 @@ Notebot is free while it is in beta.
 
 | | Requirements | File |
 |---|---|---|
-| **macOS** | Apple silicon (M1 or later), macOS 12 or newer | `Notebot-x.y.z.dmg` — about 380 MB |
+| **macOS** | Apple silicon (M1 or later), macOS 12 or newer | `Notebot-x.y.z.dmg` — about 400 MB |
 | **Windows** | Windows 10 or 11, 64-bit | `Notebot-Setup-x.y.z.exe` — about 245 MB |
 
 Both files are on the **[latest release page](https://github.com/notebotapp/notebot-releases/releases/latest)**. There is no Intel-Mac build.
@@ -81,12 +81,18 @@ A welcome note opens on the first launch and explains the rest inside the app.
   <img src="https://notebotapp.com/assets/shots/note-light.webp" alt="A generated study note with headings, callouts and maths">
 </picture>
 </td>
-<td width="50%"><img src="https://notebotapp.com/assets/shots/drill-card.webp" alt="A drill card with a question and a hidden answer"></td>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://notebotapp.com/assets/shots/drill-mcq-dark.webp">
+  <img src="https://notebotapp.com/assets/shots/drill-mcq-light.webp" alt="A Drill card: a multiple-choice question Notebot wrote from a chemistry note, answered wrong, with why the right answer is right, why the pick was not, and a link to the section of the note">
+</picture>
+</td>
 </tr>
 </table>
 
 - **Drop a lecture in, get one note.** Slides as PDF or PowerPoint, an audio recording, photos of the whiteboard, scans of handwritten pages, your own typed notes — any mix, for one lecture. Notebot writes a single explained note, not a transcript.
-- **Read and study it in the app.** Rendered Markdown with maths and diagrams, a live outline, full-text search across the vault, an exam lens, and drill cards built from the note's own questions.
+- **Then practise the way your exam will test you.** Drill turns your notes into a practice exam: multiple choice, true or false, short answers, written problems and essays, in the mix each course uses. Use the questions already in your notes, let Notebot write new ones from them, or both. Every new question is checked before you see it, and a written answer comes back scored out of ten against your notes.
+- **Read it in the app.** Rendered Markdown with maths and diagrams, a live outline, full-text search across the vault and an exam lens. Select a passage you don't follow and **AI help** explains it more simply, gives an example, or says why it's true.
 - **Recordings stay on your computer.** They are transcribed locally before anything is sent to Google.
 - **Your notes are plain Markdown files** in the folder you chose. Obsidian and any other Markdown app read the same folder.
 
@@ -102,6 +108,7 @@ Every release since 1.0.7 ships a `.sig` file next to the installer — an Ed255
 
 - Notes, recordings and figures are **never uploaded** to us. They live in your folder.
 - Your Gemini key stays on your computer and is used only to talk to Google's API.
+- What goes to Google: the lecture you drop in, when you press Run; and, only when you ask for them, the parts of your notes behind new Drill questions, a checked answer or an AI-help explanation. Always under your own key.
 - The beta sign-in records your name, email address, which version you run and the day you last opened it. Nothing else. The [privacy page](https://notebotapp.com/privacy) is the full list, and says how to have it deleted.
 
 ## Something wrong?
