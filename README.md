@@ -77,14 +77,14 @@ A welcome note opens on the first launch and explains the rest inside the app.
 <tr>
 <td width="50%">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://notebotapp.com/assets/shots/note-dark.webp">
-  <img src="https://notebotapp.com/assets/shots/note-light.webp" alt="A generated study note with headings, callouts and maths">
+  <source media="(prefers-color-scheme: dark)" srcset="https://notebotapp.com/assets/shots/readme-note-dark.webp">
+  <img src="https://notebotapp.com/assets/shots/readme-note-light.webp" alt="A generated study note: Chapter 14, Chemical kinetics, with an overview, a formula, a callout and the start of a table">
 </picture>
 </td>
 <td width="50%">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://notebotapp.com/assets/shots/drill-mcq-dark.webp">
-  <img src="https://notebotapp.com/assets/shots/drill-mcq-light.webp" alt="A Drill card: a multiple-choice question Notebot wrote from a chemistry note, answered wrong, with why the right answer is right, why the pick was not, and a link to the section of the note">
+  <source media="(prefers-color-scheme: dark)" srcset="https://notebotapp.com/assets/shots/readme-drill-dark.webp">
+  <img src="https://notebotapp.com/assets/shots/readme-drill-light.webp" alt="A Drill card: a multiple-choice question Notebot wrote from a chemistry note, answered wrong, with why the right answer is right, why the pick was not, and a link to the section of the note">
 </picture>
 </td>
 </tr>
